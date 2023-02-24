@@ -6,7 +6,7 @@ function verification(e)
     // console.log(e.target[0].value.match(mailformat));
     if(!(e.target[0].value.match(mailformat)))
     {
-           e.preventDefault();
+           e.preventDefault();//This field is added
      e.target[0].style.borderColor="hsl(0, 93%, 68%)"; 
      e.target[0].style.borderWidth="2px";
      document.getElementById("error-icon").style.display="block";
